@@ -3,13 +3,15 @@
 return [
     'defaults' => [
         'theme' => 'dracula',
-        'language' => 'javascript'
+        'language' => 'twig'
     ],
     'assets' => [
         'modes' => [
             'html',
             'javascript',
-            'golang'
+            'css',
+            'twig',
+            'scss'
         ],
         'themes' => [
             'dracula'
